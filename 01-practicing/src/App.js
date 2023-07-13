@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MiComponente from './MiComponente';
 
 function App() {
   return (
@@ -9,14 +10,9 @@ function App() {
         <p>
           Welcome to React Course Practice!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        {/* Cargar mi primer componente */}
+        <MiComponente />
       </header>
     </div>
   );
