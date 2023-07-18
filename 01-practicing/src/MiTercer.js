@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 
+//PROPS
 //Esta es la promera forma utilizando las props que me traen todas las caracteristicas
 // export const MiTercer = (props) => {
 //     console.log(props);
@@ -14,7 +15,6 @@ import React from 'react'
 //Segunda forma utilizando la desestructiracion 
 
  const MiTercer = ({nombre, apellido, ficha}) => {
-    
     return (
     <div>
         <h3>Mi Tercer Componente</h3>
@@ -29,5 +29,6 @@ import React from 'react'
     </div>
   )
 }
+
 
 export default MiTercer;

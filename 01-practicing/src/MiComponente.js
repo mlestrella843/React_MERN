@@ -44,5 +44,4 @@ const MiComponente = () => {
     );    
 };
 
-//Export
 export default MiComponente;
