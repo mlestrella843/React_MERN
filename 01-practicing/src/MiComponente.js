@@ -20,7 +20,7 @@ const MiComponente = () => {
         //qure puede ser un fragment vacio, un main o un div.
         <div className="mi-Componente"> 
             <br/>
-            <h3>Se ha creado mi componente</h3>
+            <h3>Este es mi Primer componente</h3>
             <h3>Datos del Usuario</h3>
             <ul>
                 <li>Nombre: {usuario.nombre}</li>
