@@ -2,8 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import MiComponente from './MiComponente';
 import { MiSegundo } from './MiSegundo';
+import MiTercer from './MiTercer';
 
 function App() {
+
+  const ficha_medica={
+   altura: "187 cm",
+   grupo: "O+",
+   estado: "Bueno",
+   alergias: "Ninguna"
+  }
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +27,13 @@ function App() {
             <hr/>    
             <MiComponente />
             <hr/>     
-            <MiSegundo />            
+            <MiSegundo />   
+            <hr/>
+            <MiTercer 
+            nombre="Maria Luisa" 
+            apellido="Estrella"
+            ficha={ficha_medica}
+            />         
         </div>
       </header>
     </div>
